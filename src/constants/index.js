@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     year: "Jan 2024 - Present",
     role: "AI Trainer Coding Expertise",
     company: "Outlier | Freelance ",
-    description: `Enhanced and optimized chatbot responses to improve accuracy, relevance, and user engagement, resulting in a better overall user experience and more effective interactions.`,
+    description: `Enhanced and optimized AI model coding responses to ensure higher accuracy, technical relevance, and user engagement, focusing on improving code quality, debugging support, and overall developer experience.`,
     technologies: ["Javascript", "HTML", "CSS"],
   },
   {
@@ -59,7 +59,7 @@ export const PROJECTS = [
     title: "Daniels Website",
     image: project3,
     description:
-      "A modern and fully responsive personal portfolio website built with HTML, CSS, and Bootstrap. It offers a clean, professional design to showcase projects, skills, and achievements effectively.",
+      "A responsive personal portfolio website built with HTML, CSS, and Bootstrap, based on a Figma design, showcasing skills in converting designs into functional web interfaces.",
     technologies: ["HTML", "CSS", "Bootstrap"],
     url: "https://basel-mohamed.github.io/Daniels-Website/",
   },

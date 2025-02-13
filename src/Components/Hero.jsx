@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "./../constants/index";
-import profilePic from "../assets/BaselProfile.jpg";
 import { motion } from "framer-motion";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -9,10 +9,10 @@ const container = (delay) => ({
 
 export default function Hero() {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div id="home" className="border-b border-neutral-900 pb-20 lg:pb-35  mt-40 ">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col items-center ">
             <motion.h1
               variants={container(0)}
               initial="hidden"
@@ -41,13 +41,10 @@ export default function Hero() {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center hover:scale-105 transition duration-250">
-            <motion.img
-            className="rounded-2xl w-100"
-              initial={{ x: 100, opacity: 0 }}
-              animate={{x:0, opacity:1}}
-              transition={{duration:1, delay:1.2}}
-              src={profilePic}
-              alt="Basel Pic"
+            <DotLottieReact
+              src="https://lottie.host/9b5de34d-6644-4459-831c-14438a5bd516/jBZ2PIcfd8.lottie"
+              loop
+              autoplay
             />
           </div>
         </div>

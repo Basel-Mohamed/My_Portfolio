@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="Projects" className="border-b border-neutral-900 pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -22,7 +22,7 @@ export default function Projects() {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <div className="w-52 hover:scale-125 transition duration-200">
+              <div className="w-60 md:w-54 hover:scale-125 transition duration-200">
                 <a href={project.url} target="_blank">
                   <img
                     src={project.image}
