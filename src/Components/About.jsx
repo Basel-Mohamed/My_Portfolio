@@ -32,7 +32,13 @@ export default function About() {
             </motion.p>
           </div>
         </div>
+
+
       </div>
+
+
+
+      
     </div>
   );
 }
