@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "HTML", "CSS"],
   },
   {
-    year: "Aug 2024 - Jan 2025",
+    year: "Sep 2024 - Feb 2025",
     role: "Frontend Developer",
     company: "Route Academy | Internship",
     description: `Built responsive websites using HTML, CSS, JavaScript, and frameworks like Bootstrap, Tailwind, and React.js, ensuring cross-platform compatibility. Proficient in version control with Git and GitHub for efficient project management and collaboration, and skilled in using Figma to translate UI/UX designs into functional and visually appealing front-end components.`,
