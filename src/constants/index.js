@@ -31,7 +31,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Jan 2021 - Mar 2023",
-    role: "Jan 2021 - Mar 2023",
+    role: "AI Annotator",
     company: "Remotasks | Freelance ",
     description: `Annotated complex AI datasets, including image segmentation, text classification, and entity recognition, to ensure precise machine learning inputs, while reviewing and debugging datasets to identify inconsistencies and enhance model accuracy.`,
     technologies: [],
